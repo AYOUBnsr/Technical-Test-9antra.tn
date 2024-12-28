@@ -4,7 +4,7 @@ const Course = require("../models/course");
 
 const router = express.Router();
 
-// Setup multer for file uploads
+// file uploads
 const storage = multer.diskStorage({
     destination: (req, file, cb) => cb(null, "uploads/"),
     filename: (req, file, cb) => cb(null, Date.now() + "-" + file.originalname),
