@@ -1,0 +1,38 @@
+.hero {
+  position: relative;
+  background: url('./assets/wallpaperflare.com_wallpaper\ \(1\).jpg') no-repeat center center/cover;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  background: rgb(233 231 231 / 85%);
+  color: #000000;
+  text-align: center;
+  padding: 40px;
+}
+
+h2 {
+  font-size: 2rem;  
+  margin: 0;
+}
+
+
+.btn {
+  background: #af2f64;
+  border: none;
+  padding: 12px 40px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 1rem;
+  transition: background 0.3s ease, transform 0.2s ease;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: #fab555;
+  transform: scale(1.05);
+}
